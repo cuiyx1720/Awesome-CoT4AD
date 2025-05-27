@@ -23,7 +23,9 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
   <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo1.png" 
        alt="photo1"  />
 </div>
+
 # Methods
+
 
 ### Modular Driving CoT
 
