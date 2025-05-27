@@ -19,6 +19,10 @@ This is the repository of **Chain-of-Thought for Autonomous Driving: A Comprehen
 
 Chain-of-Thought reasoning empowers autonomous driving systems with human-like logical processing for complex scenarios. Our review analyzes CoT implementations and maintains a live repository.
 
+<div align="center">
+  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo1.png" 
+       alt="photo1"  />
+</div>
 # Methods
 
 ### Modular Driving CoT
