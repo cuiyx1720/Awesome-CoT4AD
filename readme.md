@@ -19,7 +19,9 @@ This is the repository of **Chain-of-Thought for Autonomous Driving: A Comprehen
 
 The rapid evolution of large language models in natural language processing has substantially elevated their semantic understanding and logical reasoning capabilities. Such proficiencies have been leveraged in autonomous driving systems, contributing to significant improvements in system performance. Models such as OpenAI o1 and DeepSeek-R1, leverage Chain-of-Thought (CoT) reasoning, an advanced cognitive method that simulates human thinking processes, demonstrating remarkable reasoning capabilities in complex tasks. By structuring complex driving scenarios within a systematic reasoning framework, this approach has emerged as a prominent research focus in autonomous driving, substantially improving the system's ability to handle challenging cases. This paper investigates how CoT methods improve the reasoning abilities of autonomous driving models. Based on a comprehensive literature review, we present a systematic analysis of the motivations, methodologies, challenges, and future research directions of CoT in autonomous driving. Furthermore, we propose the insight of combining CoT with self-learning to facilitate self-evolution in driving systems. To ensure the relevance and timeliness of this study, we have compiled a dynamic repository of literature and open-source projects, diligently updated to incorporate forefront developments.
 
-![photo1](https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo1.png)
+<div align="center">
+  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo1.png" alt="photo1" />
+</div>
 
 # Methods
 
@@ -27,9 +29,9 @@ The rapid evolution of large language models in natural language processing has 
 
 > **Modular Driving CoT** decomposes driving tasks into independent submodules like perception, prediction, and planning, each performing specific reasoning tasks, which helps in optimizing and adapting the system to diverse scenarios.
 
-
-
-<img src="..\github\CoT4AD.assets\photo2.png" alt="photo2" style="zoom:25%;" />
+<div align="center">
+  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo2.png" alt="photo2" style="zoom:25%;" />
+</div>
 
 | Name                                             | Venue        | Task       | Input                | Open Source                                                  | CoT Process                                                  |
 | :----------------------------------------------- | :----------- | :--------- | :------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -56,7 +58,9 @@ The rapid evolution of large language models in natural language processing has 
 
 
 
-![photo3](..\github\CoT4AD.assets\photo3.png)
+<div align="center">
+  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo3.png" alt="photo3" />
+</div>
 
 
 
@@ -87,7 +91,9 @@ The rapid evolution of large language models in natural language processing has 
 
 
 
-![photo4](..\github\CoT4AD.assets\photo4.png)
+<div align="center">
+  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo4.png" alt="photo4" />
+</div>
 
 | Name                                                     | Venue        | Task       | Input              | Open Source                                                  | CoT Process                                                  |
 | -------------------------------------------------------- | ------------ | ---------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
