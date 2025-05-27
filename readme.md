@@ -9,9 +9,9 @@ This is the repository of **Chain-of-Thought for Autonomous Driving: A Comprehen
 
 - [Introduction](#Introduction)
 - [Methods](#methods)
-  - [Modular Driving CoT](#Modular Driving CoT)
-  - [Logical Driving CoT](#Logical Driving CoT)
-  - [Reflective Driving CoT](#Reflective Driving CoT)
+  - [Modular Driving CoT](###Modular Driving CoT)
+  - [Logical Driving CoT](###Logical Driving CoT)
+  - [Reflective Driving CoT](###Reflective Driving CoT)
 - [Datasets](#datasets)
 - [Citation](#citation)
 
@@ -30,7 +30,9 @@ The rapid evolution of large language models in natural language processing has 
 > **Modular Driving CoT** decomposes driving tasks into independent submodules like perception, prediction, and planning, each performing specific reasoning tasks, which helps in optimizing and adapting the system to diverse scenarios.
 
 <div align="center">
-  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo2.png" alt="photo2" style="zoom:25%;" />
+  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo2.png" 
+       alt="photo2" 
+       width="50%" />  <!-- 按比例缩放 -->
 </div>
 
 | Name                                             | Venue        | Task       | Input                | Open Source                                                  | CoT Process                                                  |
