@@ -7,11 +7,11 @@ This is the repository of **Chain-of-Thought for Autonomous Driving: A Comprehen
 
 # Contents
 
-- [Introduction](#Introduction)
+- [Introduction](#introduction)
 - [Methods](#methods)
-  - [Modular Driving CoT](###Modular Driving CoT)
-  - [Logical Driving CoT](###Logical Driving CoT)
-  - [Reflective Driving CoT](###Reflective Driving CoT)
+  - [Modular Driving CoT](#modular-driving-cot)
+  - [Logical Driving CoT](#logical-driving-cot)
+  - [Reflective Driving CoT](#reflective-driving-cot)
 - [Datasets](#datasets)
 - [Citation](#citation)
 
@@ -61,7 +61,9 @@ The rapid evolution of large language models in natural language processing has 
 
 
 <div align="center">
-  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo3.png" alt="photo3" />
+  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo3.png" 
+       alt="photo3" 
+       width="80%" />  <!-- 按比例缩放 -->
 </div>
 
 
@@ -94,7 +96,9 @@ The rapid evolution of large language models in natural language processing has 
 
 
 <div align="center">
-  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo4.png" alt="photo4" />
+  <img src="https://github.com/cuiyx1720/Awesome-CoT4AD/blob/master/CoT4AD.assets/photo4.png" 
+       alt="photo4" 
+       width="80%" />  <!-- 按比例缩放 -->
 </div>
 
 | Name                                                     | Venue        | Task       | Input              | Open Source                                                  | CoT Process                                                  |
