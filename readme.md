@@ -162,14 +162,11 @@ With technological advancements, datasets now encompass not only perceptual and 
 If you find this repository useful for your research, please consider citing the following paper:
 
 ```bibtex
-@misc{cui2025chainofthoughtautonomousdrivingcomprehensive,
-      title={Chain-of-Thought for Autonomous Driving: A Comprehensive Survey and Future Prospects}, 
-      author={Yixin Cui and Haotian Lin and Shuo Yang and Yixiao Wang and Yanjun Huang and Hong Chen},
-      year={2025},
-      eprint={2505.20223},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2505.20223}, 
+@article{cui2025chain,
+  title={Chain-of-Thought for Autonomous Driving: A Comprehensive Survey and Future Prospects},
+  author={Cui, Yixin and Lin, Haotian and Yang, Shuo and Wang, Yixiao and Huang, Yanjun and Chen, Hong},
+  journal={arXiv preprint arXiv:2505.20223},
+  year={2025}
 }
 ```
 
