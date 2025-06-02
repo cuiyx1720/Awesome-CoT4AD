@@ -88,7 +88,7 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [PRIMEDrive-CoT](https://arxiv.org/pdf/2504.05908) | CVPRW 2025 | E2E        | SF-MV, LiDAR             | ❌                                                            | Uncertainty/Risk → Interaction → Logical decision → Meta action |
 | [LangCoop](https://arxiv.org/pdf/2504.13406)       | arXiv 2025 | E2E        | SF-SV                    | [code](https://xiangbogaobarry.github.io/LangCoop/?utm_source=catalyzex.com) | Scene description → High-level intent → LangPack integration → Control |
 | [X-Driver](https://arxiv.org/pdf/2505.05098)       | arXiv 2025 | E2E        | SF-SV, TI                | ❌                                                            | Object detection, Traffic sign, Lane info → Trajectory       |
-
+| [FSDrive](https://arxiv.org/pdf/2505.17685)        | arXiv 2025 | E2E        | SF-MV, TI                | ❌                                                            | Future image, Scene understanding → Trajectory         |
 
 
 ### Reflective Driving CoT
