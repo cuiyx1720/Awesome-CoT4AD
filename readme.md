@@ -45,6 +45,7 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [GPT-Driver](https://arxiv.org/pdf/2310.01415)   | NeurIPS 2023 | Planning   | 2DKS, EH, TI         | [code](https://github.com/PointsCoder/GPT-Driver?utm_source=catalyzex.com) | Key object detection → Interaction prediction → Trajectory   |
 | [RDA-Driver](https://arxiv.org/pdf/2408.13890)   | ECCV 2024    | Planning   | SF-MV, EH            | ❌                                                            | Key object detection and prediction → High-level intent → Trajectory |
 | [AlphaDrive](https://arxiv.org/pdf/2503.07608)   | arXiv 2025   | Planning   | MF-SV                | [code](https://github.com/hustvl/AlphaDrive?utm_source=catalyzex.com) | Key object detection → High-level intent                     |
+| [DriveRX](https://arxiv.org/pdf/2505.20665)   | arXiv 2026   | Decision   | SF-MV, TI              | [code](https://pris-cv.github.io/DriveRX/) | Perception answer → Prediction answer → Planning → Meta action          |
 | [LLM-Driver](https://arxiv.org/pdf/2310.01957)   | IEEE 2024    | E2E        | 2DKS                 | [code](https://github.com/wayveai/Driving-with-LLMs)         | Scene vectors grounding → Prediction answer, Control         |
 | [LMDrive](https://arxiv.org/pdf/2312.07488)      | CVPR 2024    | E2E        | MF-MV, TI, LiDAR     | [code](https://github.com/opendilab/LMDrive?utm_source=catalyzex.com) | Feature detection → Trajectory → PID control                 |
 | [WiseAD](https://arxiv.org/pdf/2412.09951)       | arXiv 2024   | E2E        | MF-SV, TI, Question  | ❌                                                            | Answer (Scene description, Risk analysis...) + Trajectory    |
@@ -53,6 +54,7 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [LightEMMA](https://arxiv.org/pdf/2505.00284v1)  | arXiv 2025   | E2E        | SF-SV, EH            | [code](https://github.com/michigan-traffic-lab/LightEMMA?utm_source=catalyzex.com) | Scene description → High-level intent → Trajectory           |
 | [DriveLM](https://arxiv.org/pdf/2312.14150)      | ECCV 2024    | E2E        | SF-SV, Question      | [code](https://github.com/OpenDriveLab/DriveLM?utm_source=catalyzex.com) | Perception → Prediction → High-level intent → Trajectory     |
 | [See2DriveX](https://arxiv.org/pdf/2502.14917)   | arXiv 2025   | E2E        | MF-MV, 2DKS, TI, BEV | ❌                                                            | Scene description → Meta action → Trajectory → Control       |
+| [ExplainDrive](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11343663)   | IEEE 2025   | E2E        | MF-SV, TI | ❌                                                            | Causal temporal former → Scene description → Explanation → Meta action     |
 
 
 
@@ -89,7 +91,10 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [LangCoop](https://arxiv.org/pdf/2504.13406)       | arXiv 2025 | E2E        | SF-SV                    | [code](https://xiangbogaobarry.github.io/LangCoop/?utm_source=catalyzex.com) | Scene description → High-level intent → LangPack integration → Control |
 | [X-Driver](https://arxiv.org/pdf/2505.05098)       | arXiv 2025 | E2E        | SF-SV, TI                | ❌                                                            | Object detection, Traffic sign, Lane info → Trajectory       |
 | [FSDrive](https://arxiv.org/pdf/2505.17685)        | arXiv 2025 | E2E        | SF-MV, TI                | [code](https://github.com/MIV-XJTU/FSDrive)  | Future image, Scene understanding → Trajectory         |
+| [LCDrive](https://arxiv.org/abs/2512.10226)        | arXiv 2025 | E2E        | MF-MV, EH               | ❌  | Action proposal → LWM prediction → Multi-Branch reasoning → Trajectory        |
 | [FastDriveCoT](https://arxiv.org/abs/2602.02864)        | arXiv 2026 | E2E        | MF-MV, EH                | ❌  | Structured template → Optimal parallel scheduling → Trajectory        |
+
+
 
 ### Reflective Driving CoT
 
@@ -107,6 +112,7 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | -------------------------------------------------------- | ------------ | ---------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Agent-Driver](https://arxiv.org/pdf/2311.10813)         | COLM 2024    | Perception | SF-MV              | [code](https://usc-gvl.github.io/Agent-Driver/?utm_source=catalyzex.com) | Key object detection → High-level intent → Trajectory ⟲ Refine, Mem |
 | [PlanAgent](https://arxiv.org/pdf/2406.01587)            | arXiv 2024   | Planning   | MF-MV, 2DKS        | ❌                                                            | Global, local info → Scene description → Planning code ⟲ Refine |
+| [VLR-Driver](https://openaccess.thecvf.com/content/ICCV2025/papers/Kong_VLR-Driver_Large_Vision-Language-Reasoning_Models_for_Embodied_Autonomous_Driving_ICCV_2025_paper.pdf)                | IEEE 2025   | Planning        | MF-MV, 2DKS          |❌ | Spatial CoT, Temporal CoT → Reflective reasoning ⟲ Refine → Meta action  |
 | [DiLu](https://arxiv.org/pdf/2309.16292)                 | ICLR 2024    | Decision   | 2DKS               | [code](https://pjlab-adg.github.io/DiLu/)                    | Scene description → Meta action ⟲ Refine, Mem                |
 | [Receive-Reason-React](https://arxiv.org/pdf/2310.08034) | IEEE 2024    | Decision   | 2DKS, TI, In-cabin | ❌                                                            | Scene description → Explanation → Meta action ⟲ Mem          |
 | [SafeDrive](https://arxiv.org/pdf/2412.13238)            | arXiv 2024   | Decision   | 2DKS, TI           | [code](https://mezzi33.github.io/SafeDrive/?utm_source=catalyzex.com) | Risk evaluation → Key object detection → Meta action ⟲ Refine, Mem |
@@ -117,7 +123,7 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [Actor-Reasoner](https://arxiv.org/pdf/2503.00502)       | arXiv 2025   | Decision   | 2DKS, TI, Mem DB   | [code](https://github.com/FanGShiYuu/Actor-Reasoner)         | Intent prediction → Driving style → Meta action ⟲ Mem        |
 | [PKRD-CoT](https://arxiv.org/pdf/2412.02025)             | arXiv 2024   | E2E        | SF-MV              | ❌                                                            | Scene description → Object detection → High-level intent ⟲ Mem |
 | [ORION](https://arxiv.org/pdf/2503.19755)                | arXiv 2025   | E2E        | SF-MV, TI          | [code](https://xiaomi-mlab.github.io/Orion/?utm_source=catalyzex.com) | Feature extraction → Scene analysis → Meta action → Trajectory ⟲ Mem |
-
+| [FutureX](https://arxiv.org/pdf/2512.11226)                | arXiv 2025   | E2E        | MF-MV, LiDAR          |❌  | Latent CoT rollout → Trajectory refinement ⟲ Refine → Trajectory |
 
 
 # Datasets
