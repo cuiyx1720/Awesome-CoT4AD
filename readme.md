@@ -89,7 +89,7 @@ Chain-of-Thought reasoning empowers autonomous driving systems with human-like l
 | [LangCoop](https://arxiv.org/pdf/2504.13406)       | arXiv 2025 | E2E        | SF-SV                    | [code](https://xiangbogaobarry.github.io/LangCoop/?utm_source=catalyzex.com) | Scene description → High-level intent → LangPack integration → Control |
 | [X-Driver](https://arxiv.org/pdf/2505.05098)       | arXiv 2025 | E2E        | SF-SV, TI                | ❌                                                            | Object detection, Traffic sign, Lane info → Trajectory       |
 | [FSDrive](https://arxiv.org/pdf/2505.17685)        | arXiv 2025 | E2E        | SF-MV, TI                | [code](https://github.com/MIV-XJTU/FSDrive)  | Future image, Scene understanding → Trajectory         |
-
+| [FastDriveCoT](https://arxiv.org/abs/2602.02864)        | arXiv 2026 | E2E        | MF-MV, EH                | ❌  | Structured template → Optimal parallel scheduling → Trajectory        |
 
 ### Reflective Driving CoT
 
